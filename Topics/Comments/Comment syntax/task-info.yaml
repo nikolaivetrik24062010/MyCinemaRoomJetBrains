@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: ' /*** TODO: Call grandma ***/'
+- text: ' /****** Find the kitty cat */'
+- text: ' // Is this a bug?'
+- text: ' # Updated code by Jane'
+- text: ' / Begin method /'
+- text: ' /** Insert */ in next method **/'
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15366#comment
+status: Unchecked
+record: -1
+local_check: false

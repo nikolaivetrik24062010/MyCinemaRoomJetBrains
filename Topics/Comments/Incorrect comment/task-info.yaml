@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: // Add 15 to the result
+- text: /* Read lines from stdin ****/
+- text: '/*** FIXME: bug 123 should be fixed ***/'
+- text: '# This is an example comment in Kotlin'
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15364#comment
+status: Solved
+record: -1
+local_check: false

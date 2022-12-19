@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Use multiple catch blocks in one statement
+- text: Use multiple try blocks in one statement
+- text: Use only try block without adding the catch block
+- text: Describe in catch block the actions to be taken if an exception occurs in
+    the try block
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10624#comment
+status: Solved
+record: -1
+local_check: false

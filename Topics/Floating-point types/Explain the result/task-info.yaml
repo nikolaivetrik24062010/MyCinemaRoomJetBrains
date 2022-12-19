@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Operations with floating-point types can produce an inaccurate result.
+- text: Operations with Doubles produce approximate results; use Floats to get the
+    exact result.
+- text: 4.4110000000000005 is the exact answer, 4.411 is only an approximate result.
+- text: The program uses an invalid formula to calculate the area.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4506#comment
+status: Solved
+record: -1
+local_check: false

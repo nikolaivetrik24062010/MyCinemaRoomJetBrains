@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: When we want to return the <code>if</code> result as an expression, we must
+    omit curly braces.
+- text: We can omit round brackets around boolean condition if we use <code>if</code>
+    as an expression.
+- text: When we use <code>if</code> not as an expression we must include curly braces.
+- text: We must use curly braces if we have several statements inside <code>if</code>
+    or <code>else</code> branch.
+- text: When we want to use <code>if</code> without <code>else</code> branch we must
+    include curly braces.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5962#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 1.1
+- text: 2.7
+- text: 2.1
+- text: 3.0
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4504#comment
+status: Solved
+record: -1
+custom_name: What is the result?
+local_check: false

@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: It is possible to use ranges of characters and even of strings
+- text: <code>a..b</code> is a range of numbers from a to b (NOT including both border
+    values)
+- text: Range limits can be set only by two numbers
+- text: It is possible to combine ranges
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20134#comment
+status: Solved
+record: -1
+local_check: false

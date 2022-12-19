@@ -1,0 +1,13 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "fun main() {\n    // Don't be afraid of the code below! \n    // In the future,\
+    \ you will definitely cope with it, but for now just ignore it.\n    var (a, b)\
+    \ = readLine()!!.split(\" \").map { it.toInt() }\n\n    // Write only exchange\
+    \ actions here. Do not touch the lines above\n    val c = \n\n\n    // Do not\
+    \ touch the lines below\n    print(\"$a $b\")\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7308#comment
+status: Unchecked
+record: -1

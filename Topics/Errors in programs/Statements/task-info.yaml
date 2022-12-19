@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Run-time errors may occur when the compiler translates a program.
+- text: An incorrect behavior of a program is a compile-time error.
+- text: Debugging can help to find run-time errors.
+- text: If your program compiles successfully, there are no guarantees that it does
+    not have compile-time errors.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11565#comment
+status: Solved
+record: -1
+local_check: false

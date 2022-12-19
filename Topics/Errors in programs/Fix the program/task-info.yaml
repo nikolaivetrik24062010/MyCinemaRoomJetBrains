@@ -1,0 +1,21 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fu main() {
+        val a = readLine()!!.nextInt()
+        val b = readLine()!!.nextInt()
+        val c = readLine()!!.nextInt()
+
+        val sum = a - b - d
+
+        println(sum)
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11562#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 16 Dec 2022 15:38:22 UTC
+record: -1
